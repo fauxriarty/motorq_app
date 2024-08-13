@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/driverName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Driver Name"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginBottom="4dp" />
+
+    <TextView
+        android:id="@+id/driverEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="16sp"
+        android:layout_marginBottom="2dp" />
+
+    <TextView
+        android:id="@+id/driverPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone"
+        android:textSize="16sp"
+        android:layout_marginBottom="2dp" />
+
+    <TextView
+        android:id="@+id/driverLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:textSize="16sp"
+        android:layout_marginBottom="2dp" />
+
+    <TextView
+        android:id="@+id/driverWorkHours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Work Hours"
+        android:textSize="16sp" />
+
+</LinearLayout>

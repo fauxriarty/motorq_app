@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FFFFFF"
+    tools:context=".DriverLoginActivity">
+
+    <ImageView
+        android:id="@+id/motorq"
+        android:layout_width="256dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="120dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo" />
+
+
+    <EditText
+        android:id="@+id/driverNameInput"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="  Enter Driver Name"
+        android:textSize="22sp"
+        android:backgroundTint="#F8B037"
+        android:padding="12dp"
+        android:background="@drawable/bg1"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="350dp"/>
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:background="@drawable/bg2"
+        android:layout_below="@id/driverNameInput"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,4 @@
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/metallic_gradient" android:duration="2000" />
+
+</animation-list>

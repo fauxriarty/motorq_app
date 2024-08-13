@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@drawable/metallic_gradient"
+    tools:ignore="ExtraText">
+
+    <TextView
+        android:id="@+id/assignmentInstructions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select a driver, vehicle, and                          time slot to assign"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textColor="#333333"
+
+        android:layout_marginBottom="24dp" />
+
+    <Spinner
+        android:id="@+id/driverSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/spinner_background"
+        android:padding="8dp"
+        android:minHeight="48dp" />
+
+    <Spinner
+        android:id="@+id/vehicleSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/spinner_background"
+        android:padding="8dp"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/startTimeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"
+        android:focusable="false"
+        android:hint="Select Start Time"
+        android:background="@drawable/edittext_background"
+        android:padding="12dp"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/endTimeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"
+        android:focusable="false"
+        android:hint="Select End Time"
+        android:background="@drawable/edittext_background"
+        android:padding="12dp"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/assignButton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="16dp"
+        android:text="Assign Driver"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:background="@drawable/rounded_button" />
+
+    <Button
+        android:id="@+id/unassignButton"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:background="@drawable/rounded_button"
+        android:text="Unassign Driver"
+        android:textSize="18sp" />
+
+</LinearLayout>

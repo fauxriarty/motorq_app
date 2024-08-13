@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:queryHint="Search Vehicles"
+        android:iconifiedByDefault="false"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#6200EE"
+        android:padding="12dp" />
+
+    <ListView
+        android:id="@+id/vehicleListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/searchView"
+        android:layout_above="@id/addVehicleButton"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addVehicleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="Add Vehicle"
+        android:backgroundTint="#000000"
+        android:src="@android:drawable/ic_input_add"
+        android:tint="@android:color/white" />
+</RelativeLayout>

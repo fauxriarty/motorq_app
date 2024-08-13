@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/driver"
+        android:title="Profile" />
+    <item
+        android:id="@+id/navigation_assignments"
+        android:icon="@drawable/notif"
+        android:title="Assignments" />
+    <item
+        android:id="@+id/navigation_map"
+        android:icon="@drawable/home"
+        android:title="Map" />
+</menu>

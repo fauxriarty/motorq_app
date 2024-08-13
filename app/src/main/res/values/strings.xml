@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Motorq</string>
+    <string name="fleet_manager">Fleet Manager</string>
+    <string name="driver">Driver?</string>
+</resources>

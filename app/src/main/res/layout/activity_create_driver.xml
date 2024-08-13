@@ -1,0 +1,91 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="84dp"
+        android:padding="18dp">
+
+
+        <EditText
+            android:id="@+id/driverNameInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Driver Name"
+            android:textSize="18sp"
+            android:layout_marginBottom="24dp"
+            android:padding="12dp"
+            android:background="@drawable/edit_text_background" />
+
+        <EditText
+            android:id="@+id/driverEmailInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Driver Email"
+            android:textSize="18sp"
+            android:layout_marginBottom="24dp"
+            android:padding="12dp"
+            android:background="@drawable/edit_text_background" />
+
+        <EditText
+            android:id="@+id/driverPhoneInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Driver Phone"
+            android:textSize="18sp"
+            android:layout_marginBottom="24dp"
+            android:padding="12dp"
+            android:background="@drawable/edit_text_background" />
+
+        <EditText
+            android:id="@+id/driverLocationInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Driver Location"
+            android:textSize="18sp"
+            android:layout_marginBottom="24dp"
+            android:padding="12dp"
+            android:background="@drawable/edit_text_background" />
+
+        <TextView
+            android:id="@+id/fromTimeText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="From Time"
+            android:textSize="18sp"
+            android:padding="12dp"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/edit_text_background"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <TextView
+            android:id="@+id/toTimeText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="To Time"
+            android:textSize="18sp"
+            android:padding="12dp"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/edit_text_background"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <Button
+            android:id="@+id/createDriverButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create Driver"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/button_background"
+            android:layout_marginTop="32dp"
+            android:padding="14dp" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="12dp"
+        android:contentDescription="Back"
+        android:background="@drawable/back"
+        android:elevation="2dp"
+        android:textColor="?android:attr/textColorPrimary"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:queryHint="Search Drivers"
+        android:iconifiedByDefault="false"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#6200EE"
+        android:padding="12dp" />
+
+    <ListView
+        android:id="@+id/driverListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/searchView"
+        android:layout_above="@id/addDriverFAB"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addDriverFAB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="Add Driver"
+        android:backgroundTint="#000000"
+        android:src="@android:drawable/ic_input_add"
+        android:tint="@android:color/white" />
+</RelativeLayout>
